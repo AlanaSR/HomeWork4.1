@@ -6,9 +6,9 @@ public class Main {
         int clientOS = 0;
         String os1 = "IOS", os2 = "Android";
         if (clientOS == 0) {
-            System.out.println("Установите версию приложения для " + os2 + " по ссылке");
-        } else if (clientOS == 1) {
             System.out.println("Установите версию приложения для " + os1 + " по ссылке");
+        } else if (clientOS == 1) {
+            System.out.println("Установите версию приложения для " + os2 + " по ссылке");
         }
 
         System.out.println("Задача 2");
